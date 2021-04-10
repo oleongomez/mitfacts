@@ -14,7 +14,9 @@ describe('MIT', () => {
     });
 
     test('Colors match', () => {
-        expect(mit.colors).toContain('Silver Gray');    
+        expect(mit.colors).toContain('PMS 201 C');    
+        expect(mit.colors).toContain('PMS 423 C');
+        expect(mit.colors).toContain('PMS 420 C')    
     });
 
     test('Founded range', () => {
